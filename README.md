@@ -1,8 +1,8 @@
-#What is this project?
+# What is this project all about?
 
 Well, this project is a solution, part 2 of Day 1 of the Advent of Code 2020(AoC), December 02,2020.
 
-###What is Advent of Code?
+### What is Advent of Code?
 
 Advent of Code is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like. People use them as a speed contest, interview prep, company training, university coursework, practice problems, or to challenge each other.
 
@@ -26,7 +26,7 @@ The purpose is to:
 
 • If they do print the numbers and the product of those numbers
 
-##How to use?
+## How to use?
 
 Change the data of `TextFile.txt` and use it to find the numbers. Also, change the `sum` variable, if you need  the  target `sum` being something else.
 
@@ -49,9 +49,9 @@ Total class count-2.
 
 Total method count-5(including `main`)
 
-####Algorithm
+#### Algorithm
 
-#####Inside the `ReadFile.java`:
+##### Inside the `ReadFile.java`:
 
 • Declare a class named ``ReadFile`` 
 
@@ -65,7 +65,7 @@ Total method count-5(including `main`)
 
 •  By, method overloading, create another method `getFirst` with no parameters and which return `List<Integer>`
 
-#####Inside the`Main.java`:
+##### Inside the`Main.java`:
 
 
 • Create a class `Main` which extends `ReadFile`
@@ -86,7 +86,7 @@ Total method count-5(including `main`)
 
 • Add a return statement so that the control goes to `main` method and terminates the program.
 
-#####Inside `main` method in `Main.java`
+##### Inside `main` method in `Main.java`
 
 • Call `setFirst`(Using the dot operator, more info in Footnotes section). Like this:
 ```java
@@ -97,7 +97,7 @@ ReadFile.setFirst();
 operations();
 ```
 
-##Footnotes
+## Footnotes
 
 
 1. This is the [link!](https://www.reddit.com/r/adventofcode/) to the subreddit of the website event! Where you might question your doubts.
